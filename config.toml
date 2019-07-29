@@ -1,6 +1,6 @@
-baseURL = "http://example.org/"
+baseURL = "http://leslieemeryphd.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Leslie Emery"
 theme = "minimal-bootstrap-hugo-theme"
 
 [taxonomies]
@@ -10,7 +10,7 @@ theme = "minimal-bootstrap-hugo-theme"
     post = "/:filename/"
 
 [params]
-    description = "Some description"
+    description = "Leslie S. Emery"
     contentBackgroundColor = "#E9E9E9"
     contentTextColor = "#2B2B2B"
     contentLinkColor = "#007bff"
@@ -32,17 +32,17 @@ theme = "minimal-bootstrap-hugo-theme"
 
 [menu]
     [[menu.nav]]
-    name = "Posts"
+    name = "Home"
     url = "/"
+    weight = 1
+    [[menu.nav]]
+    name = "Posts"
+    url = "/post/"
     weight = 2
     [[menu.nav]]
     name = "Tags"
     url = "/tags/"
     weight = 3
-    [[menu.nav]]
-    name = "About"
-    url = "/about/"
-    weight = 4
     # [[menu.nav]]
     # name = "RSS"
     # url = "/index.xml"

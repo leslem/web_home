@@ -1,15 +1,11 @@
-<!-- A copy of the homepage template from the theme, to be customized -->
-
 {{- define "main" -}}
 
-{{ $homepage := "Home" }}
-{{ with .Site.Menus.nav }}
-  {{ range first 1 . }}
-    {{ $homepage = .Name }}
-  {{ end }}
-{{ end }}
-<h1>{{ $homepage }}</h1>
+    <img src="/images/profile.jpg" alt="profile photo" width=300px >
+    <!-- style='border-radius:50%' -->
+    <h1>Leslie S. Emery</h1>
+    <h2>About</h2>
 
-{{ partial "post-list" . }}
+    <h2>Posts</h2>
+        {{ partial "post-list" . }}
 
 {{- end -}}
