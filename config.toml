@@ -1,49 +1,49 @@
-baseURL = "https://example.com"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Some Title"
+title = "My New Hugo Site"
 theme = "minimal-bootstrap-hugo-theme"
 
 [taxonomies]
-  tag = "tags"
+    tag = "tags"
 
 [permalinks]
-  post = "/:filename/"
+    post = "/:filename/"
 
 [params]
-  description = "Some description"
-  contentBackgroundColor = "#fff"
-  contentTextColor = "#212529"
-  contentLinkColor = "#007bff"
-  contentLinkHoverColor = "#0056b3"
-  navbarBackgroundColor = "#212529"
-  navbarLinkColor = "rgba(255, 255, 255, 0.75)"
-  navbarLinkHoverColor = "rgba(255, 255, 255, 1)"
-  wrapperMaxWidth = "800px"
-  customDateFormat = "Jan 2, 2006"
-  customCodeStyle = true
-  customBlockquoteStyle = true
-  showPostSummary = false
-  googleAnalytics = "UA-123456789-1"
-  cookieConsent = true
-  includeBootstrapJs = false
-  faviconSafariPinnedTabColor = "#5bbad5"
-  faviconMsApplicationTileColor = "#da532c"
-  faviconThemeColor = "#ffffff"
+    description = "Some description"
+    contentBackgroundColor = "#E9E9E9"
+    contentTextColor = "#2B2B2B"
+    contentLinkColor = "#007bff"
+    contentLinkHoverColor = "#0056b3"
+    navbarBackgroundColor = "#CDCDCD"
+    navbarLinkColor = "#2B2B2B"
+    navbarLinkHoverColor = "#FFFFFF"
+    wrapperMaxWidth = "800px"
+    customDateFormat = "Jan 2, 2006"
+    customCodeStyle = true
+    customBlockquoteStyle = true
+    showPostSummary = false
+    googleAnalytics = "UA-123456789-1"
+    cookieConsent = true
+    includeBootstrapJs = false
+    faviconSafariPinnedTabColor = "#5bbad5"
+    faviconMsApplicationTileColor = "#da532c"
+    faviconThemeColor = "#ffffff"
 
 [menu]
-  [[menu.nav]]
-  name = "Posts"
-  url = "/"
-  weight = 1
-  [[menu.nav]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 2
-  [[menu.nav]]
-  name = "About"
-  url = "/about/"
-  weight = 3
-  [[menu.nav]]
-  name = "RSS"
-  url = "/index.xml"
-  weight = 4
+    [[menu.nav]]
+    name = "Posts"
+    url = "/"
+    weight = 2
+    [[menu.nav]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 3
+    [[menu.nav]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+    # [[menu.nav]]
+    # name = "RSS"
+    # url = "/index.xml"
+    # weight = 4
