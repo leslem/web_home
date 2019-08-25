@@ -1,6 +1,6 @@
 baseURL = "http://leslieemeryphd.com/"
 languageCode = "en-us"
-title = "Leslie Emery"
+title = "Leslie Emery, PhD"
 theme = "minimal-bootstrap-hugo-theme"
 
 [taxonomies]
