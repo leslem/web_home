@@ -1,9 +1,9 @@
 ---
 title: "Write, and regularly run, tests of your code"
 date: 2019-08-27T23:16:17-07:00
-publishdate: 2019-09-01
+publishdate: 2019-08-28
 draft: true
-tags: ['level-up-coding']
+tags: ['best-practices', 'r', 'python']
 ---
 
 
