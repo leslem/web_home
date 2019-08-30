@@ -3,7 +3,7 @@ title: "How to level up your coding skills for science research"
 date: 2019-08-27T22:28:36-07:00
 publishdate: 2019-08-27
 draft: true
-tags: ['level-up-coding']
+tags: ['best-practices', 'r', 'python']
 ---
 
 When I started my PhD program ten years ago, I was learning programming nearly from scratch. I had decent Unix skills, but the only coding I'd done was on a TI-83. I quickly learned R and Python and was very excited to use these new tools in my research on human population genetics. 
@@ -52,5 +52,7 @@ These leveled-up coding practices will also make it easier for you to share your
 
 ## How to learn these skills
 
-I'll be writing about each of the listed skills in more detail, but it won't be enough to fully learn each skill. A great resource to start with is [Software Carpentry's lessons](https://software-carpentry.org/lessons/). Otherwise, the best way to learn them is to look into each skill and start using it, even in a small way, in your work.
+I'll be writing some posts about each of the listed skills in more detail over the coming weeks. I'll try to include some basic Python and R examples, where appropriate. This will be just enough to give you an idea of how to get started looking for resources on each skill.
+
+A great resource to start with is [Software Carpentry's lessons](https://software-carpentry.org/lessons/). Otherwise, the best way to learn them is to look into each skill and start using it, even in a small way, in your work.
 
