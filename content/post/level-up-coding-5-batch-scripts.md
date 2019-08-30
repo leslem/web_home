@@ -2,7 +2,7 @@
 title: "Run batch scripts, rather than working interactively"
 date: 2019-08-27T23:16:17-07:00
 draft: true
-tags: ['level-up-coding']
+tags: ['best-practices', 'r', 'python']
 ---
 
 
