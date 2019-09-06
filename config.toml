@@ -31,10 +31,10 @@ theme = "minimal-bootstrap-hugo-theme"
     faviconThemeColor = "#ffffff"
 
 [menu]
-    [[menu.nav]]
-    name = "Home"
-    url = "/"
-    weight = 1
+    # [[menu.nav]]
+    # name = "Home"
+    # url = "/"
+    # weight = 1
     [[menu.nav]]
     name = "Posts"
     url = "/post/"

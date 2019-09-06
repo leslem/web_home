@@ -1,6 +1,6 @@
 <nav class="custom-navbar">
   <div class="container">
-    {{ .Site.Title }}&nbsp;&nbsp;
+    <a class='navbar-brand' href="/">{{ .Site.Title }}</a>
     {{ range .Site.Menus.nav }}
     <a href="{{ .URL }}">{{ .Name }}</a>
     {{ end }}
