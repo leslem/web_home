@@ -1,7 +1,6 @@
 baseURL = "http://leslieemeryphd.com/"
 languageCode = "en-us"
 title = "Leslie Emery, PhD"
-theme = "minimal-bootstrap-hugo-theme"
 
 [taxonomies]
     tag = "tags"
@@ -25,7 +24,7 @@ theme = "minimal-bootstrap-hugo-theme"
     showPostSummary = false
     googleAnalytics = "UA-123456789-1"
     cookieConsent = true
-    includeBootstrapJs = false
+    includeBootstrapJs = true
     faviconSafariPinnedTabColor = "#5bbad5"
     faviconMsApplicationTileColor = "#da532c"
     faviconThemeColor = "#ffffff"
