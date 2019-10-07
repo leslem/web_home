@@ -10,11 +10,11 @@ title = "Leslie Emery, PhD"
 
 [params]
     description = "Leslie S. Emery"
-    contentBackgroundColor = "#E9E9E9"
+    contentBackgroundColor = "#FFFFFF"
     contentTextColor = "#2B2B2B"
     contentLinkColor = "#8f8f8f"
     contentLinkHoverColor = "#2B2B2B"
-    navbarBackgroundColor = "#CDCDCD"
+    navbarBackgroundColor = "#FFFFFF"
     navbarLinkColor = "#2B2B2B"
     navbarLinkHoverColor = "#FFFFFF"
     wrapperMaxWidth = "800px"
@@ -28,6 +28,7 @@ title = "Leslie Emery, PhD"
     faviconSafariPinnedTabColor = "#5bbad5"
     faviconMsApplicationTileColor = "#da532c"
     faviconThemeColor = "#ffffff"
+    header2to5color = "#666666"
 
 [menu]
     # [[menu.nav]]
