@@ -1,25 +1,17 @@
 {{- define "main" -}}
 
-    <h2>About</h2>
-    <p>
-        I combined my interests in evolutionary biology and computers by pursuing independent bioinformatics
-        projects as an undergrad. I went on to earn my PhD in the University of Washington's Genome Sciences
-        program, where I investigated the ways that natural selection and population size changes have
-        affected human genetic diversity.
-    </p>
-    <p>
-        For the past 5 years I've been working on large collaborative genetic research projects at UW's
-        Biostatistics department. I have a passion for Python, R, data analysis, and visualization.
-    </p>
-    <p>Automate everything. Question everything. Get things done.</p>
-    <p>
-        <a href="https://www.linkedin.com/in/leslie-emery/ ">LinkedIn</a> &middot;
-        <a href="https://github.com/leslem">GitHub</a> &middot;
-        <a href="https://scholar.google.com/citations?hl=en&user=gohAH8kAAAAJ">Google Scholar</a> &middot;
-        <a href="https://orcid.org/0000-0002-9070-9886">ORCID</a> &middot;
-        <a href="https://www.ncbi.nlm.nih.gov/pubmed?term=Emery%2C%20Leslie%5BAuthor%5D">PubMed</a>
-    </p>
-    <h2>Posts</h2>
+    <div class="jumbotron">
+      <!-- <img src="/images/profile.jpg" alt="profile photo" width=300px> -->
+      <img src="/images/profile-square.jpg" alt="profile photo" class="mx-auto d-block" width=200px style='border-radius:50%'>
+      <!-- <img src="/images/profile-square.jpg" alt="profile photo" class="rounded mx-auto d-block" width=250px> -->
+      <h1 class="display-4">About</h1>
+      <!-- style='border-radius:50%' -->
+      <p class="lead">
+      {{ partial "author_bio" .}}
+      </p>
+    </div>
+
+    <h2>Recent posts</h2>
         {{ partial "post-list" . }}
 
 {{- end -}}
