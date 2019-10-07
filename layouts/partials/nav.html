@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-light" style="background-color: {{ .Site.Params.navbarBackgroundColor }};">
     <div class="container">
-        <strong><a class="navbar-brand" href="/">{{ .Site.Title }}</a></strong>
+        <a class="navbar-brand" href="/">{{ .Site.Title }}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -9,10 +9,11 @@
             <ul class="navbar-nav mr-auto">
                 {{ range .Site.Menus.nav }}
                     <li class="nav-item">
-                        <strong><a class="nav-link" href="{{ .URL }}">{{ .Name }} <span class="sr-only">(current)</span></a></strong>
+                        <a class="nav-link" href="{{ .URL }}">{{ .Name }} <span class="sr-only">(current)</span></a>
                     </li>
                 {{ end }}
             </ul>
         </div>
     </div>
 </nav>
+<hr>
