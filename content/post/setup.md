@@ -57,12 +57,13 @@ letting the paper stack up. I use a Logitech K380 bluetooth keyboard to type on 
 available for it. It also has physical keys for switching between three different devices, so I use it with my iPhone
 and my laptop as well.
 
-Kobo Clara HD eReader
+For reading, I use a Kobo Clara HD eReader. I've previously had a Kindle and then a Kindle Paperwhite, and the Clara's
+interface is comparable, if not better. 
 
 My favorite recent hardware purchase is a pair of BeatsX bluetooth headphones, so now I can listen to podcasts, music,
 and audiobooks even more than I already did. I spend at least a couple of hours per day listening to these headphones.
 
-I track some basic health metrics (step count and heart rate) with a Garming Forerunner 235. I also use it for tracking
+I track some basic health metrics (step count and heart rate) with a Garmin Forerunner 235. I also use it for tracking
 running and hiking activities. I really like that the onboard GPS means it doesn't have to be paired to your phone to
 track an activity. It's getting a bit old now, but still holds a charge for days at a time.
 
@@ -72,66 +73,103 @@ storing most of my data. I've got dynamic DNS set up to be able to log in from o
 
 ## The software
 
-- Atom
-- Terminal.app
-- BBEdit
-- Bear
-    - previously nvALT + SimpleNote
-- Calibre
-- Cyberduck
-- Day One
-    - Shortcuts
-    - AppleScript for weekly review
-- iDrive cloud backups
-- iTunes & iTunes Match
-    - Spotify for previewing music before purchase
-- Keynote, Google Slides, or PowerPoint
-- Magnet
-- Mail.app
-- Calendar.app
-- Notability
-- OmniFocus Pro
-- OmniOutliner Essentials
-- Photos.app & iCloud Photo syncing
-- R
-    - RStudio
-- Python
-- Slack
-- YNAB
-- Safari
-    - Chrome as supplement
-- Zotero
-- Preview
+### Development
+- Terminal.app and bash for a shell and ssh sessions
+- Termius for ssh sessions from iOS devices
+- Cyberduck for SFTP browsing and transfers
+- R for data analysis and visualization
+    - ggplot2 for graphics
+    - data.table or tidyverse for data manipulation
+- Python for web development, pipelines & workflows, database connection
 
-- PushPin
-- Pocket
-- Feedly
-- Toggl
-- LibraryThing
+### Code/text editors
+- Atom for Python, html, markdown, bash, etc.
+- BBEdit for plain text, tsv
+- Nano for terminal-based editing
+- RStudio for R
+- Plugin for Atom and AppleScript for BBEdit to send selected text to Terminal.app for interactive coding
+- Previously used TextWrangler, KomodoEdit, R.app editor, but now replaced by Atom and RStudio
 
-- Reminders
-- GoodReader
-- Marvin
-- Termius
-- LastPass
-- Cs music player
-- GreenLit audiobook player
-- YogaStudio
-- ScreenTime
+### Organization and productivity
+- iCloud calendar across devices
+    - One personal calendar, one work calendar, multiple calendars and recurring events for use with time blocking
+- Reminders.app for a few tasks that need to happen at a specific time
+- OmniFocus Pro across devices for task management and GTD process
+- OmniOutliner Essentials across devices for checklists
+- Mail.app for multiple email accounts
+- Routinist iPhone app for morning and evening routine timed checklists
 
-- Routinist
-- MoodNotes
-- OverCast
-- GaiaGPS
-- PeakVisor
+### Notes and writing
+- Bear for typed notes (dozens per day and several long-running notes)
+    - Previously used nvALT + SimpleNote and it was good, but Bear is better
+- Noteability for handwritten notes and annotating documents on iOS and macOS
+- Day One for journaling and private notes
+    - AppleScript to generate a weekly review entry listing all calendar events and completed OmniFocus tasks
+    - iOS Shortcut to create daily and weekly work review entries
 
-- Zoom vs. GoToMeeting
-- Google Docs, Sheets, Slides
-- Out of Milk
+### Content management
+- Calibre for organizing ebooks
+    - Marvin for reading epub ebooks on iPad
+- iTunes and iTunes Match for curating my music library
+- Spotify free account for listening to albums before purchase
+- Cs Music for playing music from iOS
+- GreenLit for playing audiobooks from iOS
+- Photos.app and iCloud Photo syncing
+- Zotero for reference management and pdf organization
+- Preview.app for annotating pdfs in macOS
+- GoodReader for reading and annotationg pdfs on iOS
+- ScanSnap Home software for scanning documents
+- Pinboard for saving, tagging, organizing, and archiving bookmarks
+    - PushPin for saving Pinboard bookmarks from iOS
+- Pocket for saving articles to read
+    - ReadRuler for Pocket reading metrics
+- Feedly for reading RSS feeds
+- Overcast for listening to podcasts
+
+### Personal tracking
+- Garmin Connect web and iOS app
+- Apple Health connections
+- You Need a Budget (YNAB) for budget tracking
+- Toggl for time tracking
+    - Daily for work
+    - Inconsistently for personal time
+- LibraryThing for tracking books read and audiobooks listened to
+- MoodNotes for mood tracking
+- Still looking for a habit tracking app after being disappointed by Strides, Productive, HabitBull, Done, and paper grids
+- ScreenTime for iOS app usage
+
+### Collaboration
+- Google Team Drive, Docs, Sheets, and Slides
+    - For collaborative documents at work
+    - For shared documents with partner (especially travel planning)
+- Slack for chatting at work, several local professional groups
+- Zoom for screen sharing and conference calls
+- Out of Milk for shared grocery lists
+
+### Utilities
+- iDrive for cloud backups (bad interface, but great academic discount)
+- Safari for main web browsing
+- Chrome for when I've got multiple Google Docs tabs open
+- Magnet for window arrangement
+- LastPass for password management
+
+### Presentations
+- Keynote from my own laptop, if technologically feasible
+- Google Slides for when I can't use Keynote
+- PowerPoint if I absolutely must
+- Rmarkdown/Sweave with LaTeX/Beamer for automating report slides
+
+### Recreation
+- YogaStudio for guided yoga on iPad
+- GaiaGPS for detailed hiking maps on iPhone
+- PeakVisor for identifying peaks while hiking
 
 ## The non-digital tools
-
-- FiloFax notebooks
-    - Custom hole punch
-- Pilot Metropolitan
-- TWSBI Eco
+- FiloFax refillable notebooks
+    - A5 for carrying around in my backpack
+    - A6 for at home
+    - Custom hole punch for new paper sheets
+    - Maruman loose leaf paper for refills
+- Uniball Jetstream ballpoint pens
+- Pilot Metropolitan fountain pen
+- TWSBI Eco fountain pen
