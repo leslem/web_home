@@ -15,11 +15,22 @@
 <p>
   {{ partial "tags" . }}
 </p>
+
+<!-- Collapsible TOC -->
+{{ if .Params.toc }}
+    <p class="text-secondary" data-toggle="collapse" data-target="#TOC" aria-expanded="false" aria-controls="table of contents">
+      <u>Post contents &darr;</u>
+    </p>
+    <div class="collapse pb-3" id="TOC">
+      <div class="card card-body">
+        {{ .TableOfContents }}
+      </div>
+    </div>
+{{ end }}
+
 {{ .Content }}
 
-
 <div class="container pt-3 pb-5" aria-label="Next and previous post">
-
     {{ with .PrevInSection }}
         <a class="btn btn-sm btn-outline-secondary float-left" href="{{ .Permalink }}">&larr; {{ .Title }}</a>
     {{ end }}
