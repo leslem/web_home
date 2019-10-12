@@ -1,0 +1,45 @@
+<!-- Custom TOC because the builting .TableOfContents page param includes an empty top level li for the H1 -->
+<!-- Source: https://github.com/gohugoio/hugo/issues/1778#issuecomment-313895910 -->
+
+<!-- ignore empty links with + -->
+{{ $headers := findRE "<h[1-6].*?>(.|\n])+?</h[1-6]>" .Content }}
+<!-- at least one header to link to -->
+{{ $has_headers := ge (len $headers) 1 }}
+<!-- a post can explicitly disable Table of Contents with toc: false -->
+{{ $show_toc := (eq $.Params.toc true) }}
+<!-- Note the TOC will only show if there are actually headers to link to -->
+{{ if and $has_headers $show_toc }}
+<div class="table-of-contents toc bd-callout">
+   <!-- TOC header -->
+   <p class="text-secondary" data-toggle="collapse" data-target="#TOC" aria-expanded="false" aria-controls="table of contents">
+       <u>Post contents &darr;</u>
+   </p>
+   <div class="collapse pb-3" id="TOC">
+       <div class="card card-body">
+           {{ range $headers }}
+               {{ $header := . }}
+               {{ range first 1 (findRE "<h[1-6]" $header 1) }}
+                   {{ range findRE "[1-6]" . 1 }}
+                       {{ $next_heading := (int .) }}
+                       <!-- generate li array of the proper depth -->
+                       {{ range seq $next_heading }}
+                           <ul class="toc-h{{ . }}">
+                       {{end}}
+                       {{ $base := ($.Page.File.LogicalName) }}
+                       {{ $anchorId := ($header | plainify | htmlEscape | urlize) }}
+                       {{ $href := delimit (slice $base $anchorId) "#" | string }}
+                       <a href="{{ relref $.Page $href }}">
+                           <li>{{ $header | plainify | htmlEscape }}</li>
+                       </a>
+                       <!-- close list -->
+                       {{ range seq $next_heading }}
+                           </ul>
+                       {{end}}
+                   {{end}}
+               {{end}}
+           {{ end }}
+       </div>
+     </div>
+</div>
+{{ end }}
+
