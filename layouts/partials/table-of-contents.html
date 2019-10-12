@@ -7,6 +7,7 @@
 {{ $has_headers := ge (len $headers) 1 }}
 <!-- a post can explicitly disable Table of Contents with toc: false -->
 {{ $show_toc := (eq $.Params.toc true) }}
+<!-- Note the TOC will only show if there are actually headers to link to -->
 {{ if and $has_headers $show_toc }}
 <div class="table-of-contents toc bd-callout">
    <!-- TOC header -->
