@@ -5,6 +5,7 @@ publishdate: 2019-10-06
 lastmod: 2019-10-06
 draft: true
 tags: []
+toc: true
 ---
 
 I love to hear about others' tools and office setups, so I'm sharing mine as well. See the fabulous
