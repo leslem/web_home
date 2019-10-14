@@ -9,7 +9,7 @@ For the past 5 years I've been working on large collaborative genetic research p
 Biostatistics department. My group develops pipelines and workflows for analysis and QC of
 large, heterogeneous genotype and phenotype datasets.
 
-I have a passion for Python, R, data analysis, visualization, reproducibile research, well-commmented
+I have a passion for Python, R, data analysis, visualization, reproducible research, well-commmented
 code, keyboard shortcuts, and productivity tools.
 
 [LinkedIn](https://www.linkedin.com/in/leslie-emery/) &middot;
