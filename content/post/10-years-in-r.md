@@ -13,25 +13,23 @@ toc: true
 
 ## Before I knew about R
 
-Thinking back on it, I've always been interested in analyzing and visualizing data. I remember learning to use Excel for making scatterplots during my high school chemistry class and thinking it was really cool. I was even excited about using Excel when it was still the only data analysis tool I knew about.
-
-During my college classes, I started to use some specialized bioinformatics software for protein and DNA sequence alignment, phylogenetic analysis, and demographic parameter inference. But I was still using Excel for data manipulation and plotting until my biostatistics class. For biostats, I had to use JMP In, a cheaper and now-defunct student version of the visualization-focused statistical software JMP, produced by the same folks who make SAS. Using JMP In was pretty fun and it made much better graphics than anything I'd seen in Excel, so I used it happily for the year or two that my (very expensive) license lasted.
+My interest in analyzing and visualizing data began when we learned to make scatterplots with Excel during my high school chemistry class. As I learned to use specialized bioinformatics software in college classes, I was still using Excel for data manipulation and plotting. Then I learned to use the visualization-focused software JMP In for my biostatistics class. JMP In is a cheaper (and now-defunct) student version of JMP, which is produced by the same folks who make SAS. I enjoyed using it to make plots and run statistical tests, so I used it happily for the year or two that my (very expensive) license lasted.
 
 
 ## How I learned about R
 
-My undergrad academic advisor, Dr. G, was also the teacher for my biostatistics course. During one of our advising meetings, we talked about some of the limitations and frustrations of JMP In and why he'd chosen to use it for the course. Basically, it was better than Excel but less expensive than SAS or SPSS. Then Dr. G mentioned wishing he could teach the biostatistics course using R instead, a free statistics programming language that he was really interested to learn. He was sure it wouldn't be a good fit for most of the students (largely pre-med and pre-vet biology majors), but he suggested it might something I would be interested in. I've thought back on this conversation a lot over the years because I wish I'd taken it as an opportunity to learn R on my own then. Instead, I would continue to hear about R here and there for the next year or so before finally starting to learn it during my first year of grad school.
+During a meeting with my biostatistics professor, we talked about some of the limitations and frustrations of JMP In and why he'd chosen to use it for teaching the course. Basically, it was better than Excel but less expensive than SAS or SPSS. He said he wished he could teach the course using R instead, a free statistics programming language that he was really interested to learn. He was sure it wouldn't be a good fit for most of the students (largely pre-med and pre-vet biology majors), but he suggested I take a look at it. I've thought back on this conversation a lot over the years because I wish I'd taken his advice and learned R then and there. Instead I didn't try using it until starting grad school.
 
 
 ## How I learned R
 
-During my first year of grad school, I did rotations in three different labs in the department before deciding on one to join for my dissertation work. The first lab I rotated in (which I would eventually join for good) had a strong computational biology focus and my advisor basically made it my rotation project to learn R with a couple of small scale genetics data sets. I've gone back and looked at the first few R scripts and plots that I have saved from this rotation and I'm pretty happy with how my first forays into R went.
+As my first project in the lab I would go on to join for my dissertation work, my advisor assigned a small analysis project to me for the sake of learning R with a couple of small scale genetics data sets. I've gone back and looked at the first few R scripts and plots that I saved from this early project and I'm pretty happy with how my first forays into R went.
 
-I'd love to display my very first few bits of R code below, but I unfortunately lost it in a memorable fashion that taught me an important lesson about code reproducibility. My advisor first demonstrated a few R commands by typing directly at the R console in the R.app GUI. I didn't realize at first that there was any other way to interact with R, so I left R.app open for several days as I figured out how to make my first couple of plots. But it never occurred to me to save the commands I was inputting to the console, and after a couple of days running, R.app crashed! When he saw me struggling over this, my advisor finally showed me the R.app editor window and explained about saving the R code to files. I've looked over those first R files, and it's funny to see that I saved them with a .txt extension. I also saved quite a few files with a .r extension instead of .R.
+I'd love to display my very first few bits of R code below but unfortunately I lost in. The experience taught me a memorable lesson about code reproducibility. My advisor first demonstrated a few R commands by typing directly at the R console in the R.app GUI. I didn't realize at first that there was any other way to interact with R, so I left R.app open for several days as I figured out how to make my first couple of plots. It never occurred to me to save the commands I was inputting to the console, and after a couple of days running, R.app crashed! When he saw me struggling over this, my advisor finally showed me the R.app editor window and explained about saving the R code to files. I've looked over those first R files, and it's funny to see that I saved them with a `.txt` extension. I also saved quite a few files with a `.r` extension instead of `.R`.
 
 ### Some of my earliest R code
 
-The earliest file I can find containing R code written by me is from November 14, 2008, during my first grad school rotation. It was probably from a couple of weeks earlier, but that's the last modified date. I saved the output of the R console rather than just saving the R commands. I saved the file with my R console output on November 14, 2008. I was getting lots of error messages from simple mistakes, and it's really interesting to see this record of me figuring out how R works. I was using R version 2.6.1, compared to today's 3.6.1.
+The earliest file I can find containing R code written by me is from that early project in November of 2008. I saved the output of the R console rather than just saving the R commands. I was getting lots of error messages from simple mistakes, and it's really interesting to see this record of me figuring out how R works. I was using R version 2.6.1, compared to today's 3.6.1.
 
 Below I've included a cleaned-up version of the code, for the sake of brevity.
 
@@ -60,11 +58,12 @@ Data: updists (134 obs.);	Bandwidth 'bw' = 2.189e+05
 > lines(density(newdown), lwd=2)
 ```
 
-By the end of my rotation I had saved another R script, `NearGeneDist.R`, to create a more refined version of that plot, which I included in my research report presentation at the end of the quarter.
+By the end of that first project I had saved another R script, `NearGeneDist.R`, to create a more refined version of that plot, which I included in my research report presentation at the end of the quarter. I first saved the file as `NearGenesDist.pdf`, then a later version as `Final2.pdf`, then `FinalFigure.pdf`, and then as `FINAL_I_SWEAR.pdf`!
 
-**Insert the final version of the plot here**
-
-Script at /data/grad-school/rotations/akey/Research\ Reports/Figures/Near\ Genes\ Figure/NearGeneDist.R
+<figure class="figure mx-auto d-block ">
+    <img src="/images/first_r_plot.pdf" alt="My first R plot" class="img-thumbnail img-fluid mx-auto d-block" width=500px>
+    <figcaption class="figure-caption text-center">My first R plot: upstream and downstream distances of genes from a putatively selected region of the human genome near BMP2</figcaption>
+</figure>
 
 
 ## How my use of R has changed
