@@ -33,12 +33,6 @@ National Merit Scholarship
     * Consulting and advising on NIH and NHLBI cloud analysis platforms
 * Hispanic Community Health Study/Study of Latinos (HCHS/SOL)
     * GWAS of lipids, ankle-brachial index, dental caries, missing teeth, smoking behavior, and other health outcomes
-    * Publications:
-        * Variants Associated with the Ankle Brachial Index Differ by Hispanic/Latino Ethnic Group: a genome-wide association study in the Hispanic Community Health Study/Study of Latinos. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/31388106)
-        * Associations of Mitochondrial and Nuclear Mitochondrial Variants and Genes with Seven Metabolic Traits. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/30595373)
-        * Genetic architecture of lipid traits in the Hispanic community health study/study of Latinos. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/29025430)
-        * Genome-Wide Association Study of Heavy Smoking and Daily/Nondaily Smoking in the Hispanic Community Health Study/Study of Latinos (HCHS/SOL). [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/28520984)
-        * Genetic variation near IRS1 is associated with adiposity and a favorable metabolic profile in U.S. Hispanics/Latinos. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27663718)
 
 #### Josh Akey's lab
 **University of Washington Genome Sciences (Seattle, WA)**  
@@ -48,9 +42,6 @@ National Merit Scholarship
 * Simulated human genetic data to characterize the strengths and weaknesses of multiple statistics to detect recent natural selection on human genes.
 * Demonstrated that mitochondrial DNA (commonly used in ancestry testing) is not a good predictor of overall genetic ancestry
 * Investigated two statistics for using genetic data to estimate past human sex ratios (number of males to females) and showed that they capture information from different periods of time.
-* Publications:
-    * Estimates of continental ancestry vary widely among individuals with the same mtDNA haplogroup. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/25620206)
-    * Estimators of the human effective sex ratio detect sex biases on different timescales. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/21109223)
 
 
 #### Information Technology Services
@@ -70,6 +61,17 @@ National Merit Scholarship
 * Alpha Lambda Delta
 * Phi Kappa Phi
 * National Merit Scholarship [2004 - 2008]
+
+
+## Publications
+* Sequencing of 53,831 diverse genomes from the NHLBI TOPMed Program. Taliun *et al.* bioRxiv. 2019. [bioRxiv](https://www.biorxiv.org/content/10.1101/563866v1.abstract)
+* Variants Associated with the Ankle Brachial Index Differ by Hispanic/Latino Ethnic Group: a genome-wide association study in the Hispanic Community Health Study/Study of Latinos. Sofer T, Emery LS, *et al.* Sci Rep. 2019. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/31388106)
+* Associations of Mitochondrial and Nuclear Mitochondrial Variants and Genes with Seven Metabolic Traits. Kraja *et al.* Am J Hum Genet. 2019. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/30595373)
+* Genetic architecture of lipid traits in the Hispanic community health study/study of Latinos. Graff M, Emery LS, *et al.* Lipids Health Dis. 2017. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/29025430)
+* Genome-Wide Association Study of Heavy Smoking and Daily/Nondaily Smoking in the Hispanic Community Health Study/Study of Latinos (HCHS/SOL). Saccone NL, Emery LS, *et al.* Nicotine Tob Res. 2018. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/28520984)
+* Genetic variation near IRS1 is associated with adiposity and a favorable metabolic profile in U.S. Hispanics/Latinos. Qi Q, Gogarten SM, Emery LS, *et al.* Obesity. 2016. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27663718)
+* Estimates of continental ancestry vary widely among individuals with the same mtDNA haplogroup. Emery LS, Magnaye KM, Bigham AW, Akey JM, Bamshad MJ. Am J Hum Genet. 2015. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/25620206)
+* Estimators of the human effective sex ratio detect sex biases on different timescales. Emery LS, Felsenstein J, Akey JM. Am J Hum Genet. 2010. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/21109223)
 
 
 ## Skills
