@@ -6,7 +6,8 @@ lastmod: 2019-08-24
 draft: false
 tags: []
 description: Curriculum vitae static page
-slug: "cv"
+slug: cv
+toc: true
 ---
 
 ## Education
@@ -34,7 +35,7 @@ National Merit Scholarship
 * Hispanic Community Health Study/Study of Latinos (HCHS/SOL)
     * GWAS of lipids, ankle-brachial index, dental caries, missing teeth, smoking behavior, and other health outcomes
 
-#### Josh Akey's lab
+#### Josh Akey lab
 **University of Washington Genome Sciences (Seattle, WA)**  
 *Postdoctoral fellow [Mar 2014 - Jul 2014]*  
 *Graduate research assistant [Sep 2008 - Mar 2014]*  
