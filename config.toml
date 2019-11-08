@@ -29,6 +29,7 @@ title = "Leslie Emery, PhD"
     faviconMsApplicationTileColor = "#da532c"
     faviconThemeColor = "#ffffff"
     header2to5color = "#666666"
+    mainSections = ['post', ]
 
 [menu]
     # [[menu.nav]]
