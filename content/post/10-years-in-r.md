@@ -11,21 +11,16 @@ draft: true
 toc: true
 ---
 
-## Before I knew about R
+## Before R
 
-My interest in analyzing and visualizing data began when we learned to make scatterplots with Excel during my high school chemistry class. As I learned to use specialized bioinformatics software in college classes, I was still using Excel for data manipulation and plotting. Then I learned to use the visualization-focused software JMP In for my biostatistics class. JMP In is a cheaper (and now-defunct) student version of JMP, which is produced by the same folks who make SAS. I enjoyed using it to make plots and run statistical tests, so I used it happily for the year or two that my (very expensive) license lasted.
+Like many people, I started out using Excel for data analysis using the skills I'd learned in high school science classes. During college I learned to use JMP In for my biostatistics class. JMP In is a cheaper (and now-defunct) student version of JMP, produced by the same folks who make SAS. I happily used it for plotting and statistical tests for the year or two that my (very expensive) license lasted.
 
-
-## How I learned about R
-
-During a meeting with my biostatistics professor, we talked about some of the limitations and frustrations of JMP In and why he'd chosen to use it for teaching the course. Basically, it was better than Excel but less expensive than SAS or SPSS. He said he wished he could teach the course using R instead, a free statistics programming language that he was really interested to learn. He was sure it wouldn't be a good fit for most of the students (largely pre-med and pre-vet biology majors), but he suggested I take a look at it. I've thought back on this conversation a lot over the years because I wish I'd taken his advice and learned R then and there. Instead I didn't try using it until starting grad school.
+During a meeting with my biostatistics professor, he said he wished he could teach the course using R instead, a free statistics programming language that he was really interested to learn. He was sure it wouldn't be a good fit for most of the students (largely pre-med and pre-vet biology majors), but he suggested I take a look at it. I've thought back on this conversation a lot over the years because I wish I'd taken his advice and learned R then and there.
 
 
 ## How I learned R
 
-As my first project in the lab I would go on to join for my dissertation work, my advisor assigned a small analysis project to me for the sake of learning R with a couple of small scale genetics data sets. I've gone back and looked at the first few R scripts and plots that I saved from this early project and I'm pretty happy with how my first forays into R went.
-
-I'd love to display my very first few bits of R code below but unfortunately I lost in. The experience taught me a memorable lesson about code reproducibility. My advisor first demonstrated a few R commands by typing directly at the R console in the R.app GUI. I didn't realize at first that there was any other way to interact with R, so I left R.app open for several days as I figured out how to make my first couple of plots. It never occurred to me to save the commands I was inputting to the console, and after a couple of days running, R.app crashed! When he saw me struggling over this, my advisor finally showed me the R.app editor window and explained about saving the R code to files. I've looked over those first R files, and it's funny to see that I saved them with a `.txt` extension. I also saved quite a few files with a `.r` extension instead of `.R`.
+As my first project my dissertation lab, my advisor gave me a couple of small genetic analysis tasks to learn in R. I've gone back and looked at the first few scripts and plots that I saved from this early project and I'm pretty happy with how my first forays into R went. I'd love to display my very first few bits of R code below but unfortunately I lost it. The experience taught me a memorable lesson about code reproducibility. My advisor first demonstrated a few R commands by typing directly at the R console in the R.app GUI. I didn't realize at first that there was any other way to interact with R, so I left R.app open for several days as I figured out how to make my first couple of plots. It never occurred to me to save the commands I was inputting to the console, and after a couple of days running, R.app crashed! When he saw me struggling over this, my advisor finally showed me the R.app editor window and explained about saving the R code to files. I've looked over those first R files, and it's funny to see that I saved them with a `.txt` extension. I also saved quite a few files with a `.r` extension instead of `.R`.
 
 ### Some of my earliest R code
 
@@ -58,7 +53,7 @@ Data: updists (134 obs.);	Bandwidth 'bw' = 2.189e+05
 > lines(density(newdown), lwd=2)
 ```
 
-By the end of that first project I had saved another R script, `NearGeneDist.R`, to create a more refined version of that plot, which I included in my research report presentation at the end of the quarter. I first saved the file as `NearGenesDist.pdf`, then a later version as `Final2.pdf`, then `FinalFigure.pdf`, and then as `FINAL_I_SWEAR.pdf`!
+By the end of that first project I had saved an R script, `NearGeneDist.R`, to create a more refined version of that plot, which I included in my research report presentation at the end of the quarter. I first saved the file as `NearGenesDist.pdf`, then a later version as `Final2.pdf`, then `FinalFigure.pdf`, and then as `FINAL_I_SWEAR.pdf`!
 
 <figure class="figure mx-auto d-block ">
     <img src="/images/first_r_plot.pdf" alt="My first R plot" class="img-thumbnail img-fluid mx-auto d-block" width=500px>
@@ -68,20 +63,18 @@ By the end of that first project I had saved another R script, `NearGeneDist.R`,
 
 ## How my use of R has changed
 
-It's been interesting to look back at my earliest R code and think about how much my use of R has changed.
+It's been interesting to look back at my earliest R code and think about how much my use of R has changed. Here's a brief list:
 
-
-
-- Saving plots using graphics device commands (rather than the save dialog from a Quartz device window)
-- Better file names and organization
+- Improved file names and organization: You'd never catch me saving something as `FINAL_I_SWEAR.pdf` these days!
+- Methods for saving plots: I used to use the Save dialog from the R.app graphics window, then I switched to using the `pdf()`, `png()`, or `cairo_pdf()` graphics devices to save directly to a file. Now I usually use `ggsave()`.
 - Saving reusable scripts for later
-- Once-masterful command of base R graphics
+- Graphics: Once-masterful command of base R graphics
 - Moved on to ggplot
 - Using it for more than just plotting/figures
 - Knitr, Sweave, RMarkdown
 - data.table
 - Wrote reusable scripts for running on large-scale simulated datasets on cluster for dissertation
-- Subversion, to Git and now GitHub
+- Using version control: During my last few years of grad school I used Subversion to keep track of my dissertation code. A few years ago I started to use Git and more recently GitHub.
 
 ## How R has changed
 - RStudio
