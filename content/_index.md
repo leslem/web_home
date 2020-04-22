@@ -1,16 +1,10 @@
-I'm a computational biologist, programmer, and research scientist at the University of Washington.
+I'm a data scientist and engineer with particular skills in data cleaning, visualization, system design, and writing production quality code. I'm currently a data science fellow at Insight.
 
-I combined my interests in evolutionary biology and computers by pursuing independent bioinformatics
-projects as an undergrad. I went on to earn my PhD in the University of Washington's Genome Sciences
-program, where I investigated the ways that natural selection and population size changes have
-affected human genetic diversity.
+I earned my PhD in computational genetics at the University of Washington, where I worked with TB-scale DNA sequence data on compute clusters to investigate the ways that natural selection and population size changes have affected human genetic diversity.
 
-For the past 5 years I've been working on large collaborative genetic research projects at UW's
-Biostatistics department. My group develops pipelines and workflows for analysis and QC of
-large, heterogeneous genotype and phenotype datasets.
+I also spent 5 years as a research scientist engineer in UW's Biostatistics department using linear regression to identify genetic differences that contribute to human health metrics (e.g. cholesterol levels, smoking behavior). In addition to running data analyses, I built databases, apps, and custom packages for combining data from multiple previously existing research studies. I led a team of research scientists to produce cleaned and QCed datasets in support of dozens of publications.
 
-I have a passion for Python, R, data analysis, visualization, reproducible research, well-commmented
-code, keyboard shortcuts, and productivity tools.
+I have a passion for Python, R, statistics and machine learning, visualization, automating analysis workflows, well-commmented code, keyboard shortcuts, and productivity tools.
 
 [LinkedIn](https://www.linkedin.com/in/leslie-emery/) &middot;
 [GitHub](https://github.com/leslem) &middot;
