@@ -44,10 +44,6 @@ title = "Leslie Emery, PhD"
     name = "Tags"
     url = "/tags/"
     weight = 3
-    [[menu.nav]]
-    name = "CV"
-    url = "/page/cv/"
-    weight = 4
     # [[menu.nav]]
     # name = "RSS"
     # url = "/index.xml"

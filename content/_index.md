@@ -1,4 +1,4 @@
-I'm a data scientist and engineer with particular skills in data cleaning, visualization, system design, and writing production quality code. I'm currently a data science fellow at Insight.
+I'm a data scientist and engineer with particular skills in data cleaning, visualization, data pipeline design, and writing production quality code. I'm currently a fellow at the competitive Insight Data Science program.
 
 I earned my PhD in computational genetics at the University of Washington, where I worked with TB-scale DNA sequence data on compute clusters to investigate the ways that natural selection and population size changes have affected human genetic diversity.
 
