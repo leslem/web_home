@@ -9,5 +9,4 @@ I have a passion for Python, R, statistics and machine learning, visualization, 
 [LinkedIn](https://www.linkedin.com/in/leslie-emery/) &middot;
 [GitHub](https://github.com/leslem) &middot;
 [Google Scholar](https://scholar.google.com/citations?hl=en&user=gohAH8kAAAAJ) &middot;
-[ORCID](https://orcid.org/0000-0002-9070-9886) &middot;
-[PubMed](https://www.ncbi.nlm.nih.gov/pubmed?term=Emery%2C%20Leslie%5BAuthor%5D)
+[ORCID](https://orcid.org/0000-0002-9070-9886)
