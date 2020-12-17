@@ -24,6 +24,32 @@ R CMD BATCH my_data_analysis.R  # This is older, but should still work
 python my_data_analysis.py
 ```
 
+`my_data_analysis.R`:
+```
+#! /usr/bin/env Rscript
+df <- data.frame(
+    a = rnorm(10),
+    b = runif(10)
+    )
+print(apply(df, FUN=mean, MARGIN=2))
+```
+
+`my_data_analysis.py`:
+```
+#!/usr/bin/env python3
+import pandas as pd
+import numpy as np
+
+df = pd.DataFrame({
+    'a': np.random.normal(size=[10, ]),
+    'b': list(range(10))
+})
+print(df.mean())
+```
+
+
 ## What about analysis notebooks?
 
 Saving your analysis in an RMarkdown document or a Jupyter notebook can accomplish the same goal, though you need to be careful that you're not misusing options that result in your code not being run in the way that you expect.
+
+- End by making a final copy of the notebook and 

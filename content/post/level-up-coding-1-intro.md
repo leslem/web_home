@@ -6,7 +6,7 @@ draft: true
 tags: ['best-practices', 'r', 'python']
 ---
 
-When I started my PhD program ten years ago, I was learning programming nearly from scratch. I had decent Unix skills, but the only coding I'd done was on a TI-83. I quickly learned R and Python and was very excited to use these new tools in my research on human population genetics. 
+When I started my PhD program ten years ago, I was learning programming nearly from scratch. I had decent Unix skills, but I hadn't really written any code. I quickly learned R and Python and was very excited to use these new tools in my research on human population genetics. 
 
 But once I'd learned the basics, I spent a couple of years at a plateau. I was writing single-use data analysis scripts and it was working for me, but I spent a lot of time tracking down bugs. I once presented results to my department that I later found were wrong due to an error in my code. And every time I copy/pasted code from one script to another I couldn't help but think that there must be a better way.
 

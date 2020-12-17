@@ -6,6 +6,9 @@ draft: true
 tags: ['best-practices', 'r', 'python']
 ---
 
+Intro:
+
+You've probably run into situation where you make a change and it breaks code you already have written.
 
 
 
@@ -19,3 +22,5 @@ tags: ['best-practices', 'r', 'python']
     - R: testthat
 - Add integration tests
     - e.g. given known input you get expected output from entire pipeline/script/analysis etc.
+- Test-driven development
+
