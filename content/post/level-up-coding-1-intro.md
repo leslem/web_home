@@ -1,7 +1,7 @@
 ---
 title: "How to level up your coding skills for science research"
 date: 2019-08-27T22:28:36-07:00
-publishdate: 2019-08-27
+publishdate: 2019-10-19
 draft: true
 tags: ['best-practices', 'r', 'python']
 ---

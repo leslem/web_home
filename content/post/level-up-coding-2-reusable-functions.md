@@ -1,7 +1,7 @@
 ---
 title: "Write reusable functions"
 date: 2019-08-27T23:16:17-07:00
-publishdate: 2019-08-28
+publishdate: 2019-10-26
 draft: true
 tags: ['best-practices', 'r', 'python']
 ---
