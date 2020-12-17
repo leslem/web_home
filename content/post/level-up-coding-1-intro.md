@@ -22,13 +22,13 @@ This is a brief list of the skills I'm going to talk about in this series of pos
 1. Run batch scripts, rather than working interactively
 1. Use version control
 1. Use a package manager
-1. Run your analysis on a cluster/the cloud, not your laptop
+1. Run your analysis on a server/cluster/the cloud, not your laptop
 1. Use Unix tools
 
 
 ## Why are these skills important?
 
-For those of us coding for research applications, it can be difficult to judge how much time, effort, and learning to put into programming skills. When your goal is to answer research questions (and publish papers about them), good programming practices can feel like a distraction. But there are several reasons why following good coding practices will benefit you, your colleagues, and your science.
+For scientists coding for research applications, it can be difficult to judge how much time, effort, and learning to put into programming skills. When your goal is to answer research questions (and publish papers about them), good programming practices can feel like a distraction. But there are several reasons why following good coding practices will benefit you, your colleagues, and your science.
 
 #### 1. **Accuracy**. 
 
